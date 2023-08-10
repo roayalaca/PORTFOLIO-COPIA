@@ -243,11 +243,16 @@ h2 {
 }
 
 .projects__container {
-  gap: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .projects__container1 {
   width: 100%;
+  display: grid;
+  place-content: center;
 }
 
 .projects__inner1{
@@ -331,9 +336,13 @@ h2 {
 }
 
 .projects__info {
-  width: 50%;
   display: grid;
   gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
 
 }
 
@@ -389,7 +398,7 @@ h2 {
 }
 
 .projects__description {
-  width: 44rem;
+  width: 35rem;
 }
 
 .projects__description1 {
