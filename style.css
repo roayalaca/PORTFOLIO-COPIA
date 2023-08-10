@@ -236,10 +236,11 @@ h2 {
 /* ============= Projects ============= */
 
 #portfolio{
-  height: 83rem;
+  height: 87rem;
   z-index: 100;
   display: grid;
   gap: 2rem;
+  background-color: red;
 }
 
 .projects__container {
@@ -301,7 +302,7 @@ h2 {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  height: 90rem;
+  height: 95rem;
 }
 
 .projects__container{
