@@ -640,7 +640,7 @@ h2 {
 
   }
 
-  .portada4 {
+  .portada {
     min-width: 992px;
   }
 
@@ -663,22 +663,20 @@ h2 {
 
 /* ANIMACIÓN */
 
-.hidden {
+/* .hidden {
   opacity: 0;
   transform: translateX(-50px);
-  /* Con el translateY lo que hago es que cuando haga scroll down es que va a ir apareciendo en el eje X,
-  como una animacion de transicion en power point */
   transition: opacity 0.5s, transform 2s;
-}
+} */
 
 
 
-.show {
+/* .show {
   opacity: 3;
   transform: translateX(0px);
-}
+} */
 
-@keyframes css {
+/* @keyframes css {
   from {
       width: 0;
   }
@@ -694,4 +692,4 @@ h2 {
   to {
       width: 170%;
   }
-}
+} */
