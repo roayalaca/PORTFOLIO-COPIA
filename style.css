@@ -628,8 +628,22 @@ h2 {
 
 /* Media Queries */
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 992px) {
+  .home  {
+    background-color: red;
+    display: grid;
+    place-content: center;
+  }
 
+  .home__right {
+    background-color: green;
+
+  }
+
+  .projects__description1 {
+    background-color: yellow;
+    width: 35rem;
+  }
 }
 
 
