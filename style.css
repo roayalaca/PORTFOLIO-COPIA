@@ -644,6 +644,14 @@ h2 {
     background-color: yellow;
     width: 35rem;
   }
+
+  .projects__image img {
+    width: 2rem;
+  }
+
+  .projects__image1 img {
+    width: 2rem;
+  }
 }
 
 
