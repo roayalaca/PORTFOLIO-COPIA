@@ -640,6 +640,10 @@ h2 {
 
   }
 
+  #portfolio {
+    min-width: 992px;
+  }
+
   .projects__description1 {
     background-color: yellow;
     width: 35rem;
