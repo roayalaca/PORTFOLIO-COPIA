@@ -656,6 +656,17 @@ h2 {
   .projects__image1 img {
     width: 2rem;
   }
+
+  .hidden {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.5s, transform 2s; 
+  }
+
+  .show {
+  opacity: 3;
+  transform: translateX(0px);
+}
 }
 
 
