@@ -235,13 +235,7 @@ h2 {
 
 /* ============= Projects ============= */
 
-#portfolio{
-  height: 87rem;
-  z-index: 100;
-  display: grid;
-  gap: 2rem;
-  background-color: red;
-}
+
 
 .projects__container {
   display: flex;
@@ -658,15 +652,10 @@ h2 {
   }
 
   .hidden {
-  opacity: 0;
   transform: translateX(-50px);
   transition: opacity 0.5s, transform 2s; 
   }
 
-  .show {
-  opacity: 3;
-  transform: translateX(0px);
-}
 }
 
 
