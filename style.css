@@ -624,39 +624,59 @@ h2 {
 
 @media screen and (min-width: 992px) {
   .home  {
-    background-color: red;
     display: grid;
     place-content: center;
   }
 
-  .home__right {
-    background-color: green;
 
+  .home__left img{
+    width: 13rem;
   }
+
+  .home__title {
+    background-color: red;
+    width: 28rem;
+  }
+
 
   .portada {
     min-width: 992px;
   }
 
+  .projects__name{
+    font-size: 2rem;
+  }
+
+  .projects__name1{
+    font-size: 2rem;
+  }
+
+  h2{
+    font-size: 1.2rem;
+  }
+
   .projects__description1 {
-    background-color: yellow;
-    width: 35rem;
+    width: 33rem;
   }
 
   .projects__image img {
-    width: 2rem;
+    width: 23rem;
   }
 
   .projects__image1 img {
-    width: 2rem;
+    width: 23rem;
   }
 
   .hidden {
+  opacity: 0;
   transform: translateX(-50px);
-  transition: opacity 0.5s, transform 2s;
-  background-color: red; 
+  transition: opacity 0.5s, transform 1s; 
   }
 
+  .show {
+  opacity: 3;
+  transform: translateX(0px);
+}
 }
 
 
